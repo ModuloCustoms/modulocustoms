@@ -115,7 +115,7 @@ header {
     display: none;
 }
 .home {
-    background-image: url("/modulocustoms-main/Photos/Background-1/pawel-czerwinski-dsoWEYWtYYM-unsplash.jpg");
+    background-image: url("/Photos/Background-1/pawel-czerwinski-dsoWEYWtYYM-unsplash.jpg");
     background-size: cover;
     height: 100vh;
     z-index: -100;
