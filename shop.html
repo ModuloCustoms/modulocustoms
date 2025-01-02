@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--===== FLATICON =====-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <!--===== SWIPER CSS =====-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--===== Icon =====-->
+    <link rel="icon" type="image/x-icon" href="./Icon/favicon.ico" />
+
+    <!--===== CSS =====-->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Modulo Customs</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span> 0963 865 4110 </span>
+            <span> Santos Building, Hemingway Street </span>
+          </div>
+
+          <p class="header__alert-news">Owner - John Emerson Tan</p>
+
+          <a href="login-register.html" class="header__top-action">
+            Log In / Sign Up
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img
+            src="/Modulo Customs/ASSESTS/Logo/Logo 3.png"
+            class="nav__logo-img"
+            alt="Logo"
+          />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="./Logo/Logo 3.png" alt="">
+            </a>
+
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link ">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link active-link">Shop</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">My Account</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link">Compare</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login-register.html" class="nav__link">Login</a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input
+              type="text"
+              placeholder="Search for items..."
+              class="form__input"
+            />
+
+            <button class="search__btn">
+              <img
+                src="/Modulo Customs/ASSESTS/Icon/search.png"
+                alt="Search Icon"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn">
+            <img
+              src="/Modulo Customs/ASSESTS/Icon/icons8-heart-50.png"
+              alt="Wishlist Icon"
+            />
+            <span class="count">3</span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <img src="/Modulo Customs/ASSESTS/Icon/icons8-cart-48.png" alt="Cart Icon" />
+            <span class="count">3</span>
+          </a>
+
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <img src="./Icon/icons8-menu-50.png" alt="Menu">
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--===== MAIN =====-->
+    <main class="main">
+      <!--===== BREADCRUMB =====-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+          <li><span class="breadcrumb__link">></span></li>
+          <li><a href="shop.html"><span class="breadcrumb__link">Shop</span></a></li>
+        </ul>
+      </section>
+
+      <!--===== PRODUCTS =====-->
+      <section class="products section--lg container">
+        <p class="total__products">We found <span>40</span> items for you!</p>
+
+        <div class="products__container grid">
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-orange">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-blue">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-30%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-22%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-30%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-pink">-22%</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+
+              <div class="product__badge light-green">Hot</div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt="Product"
+                  class="product__img"
+                />
+
+                <img
+                  src="/Modulo Customs/ASSESTS/Photos/1.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="product__content">
+              <span class="product__category">Category 1</span>
+              <a href="details.html">
+                <h3 class="product__title">Product Title 1</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+
+              <div class="product__price flex">
+                <span class="new__price">123.45</span>
+                <span class="old__price">678.90</span>
+              </div>
+
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-cart-add"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <ul class="pagination">
+          <li><a href="#" class="pagination__link active">01</a></li>
+          <li><a href="#" class="pagination__link">02</a></li>
+          <li><a href="#" class="pagination__link">03</a></li>
+          <li><a href="#" class="pagination__link">...</a></li>
+          <li><a href="#" class="pagination__link">10</a></li>
+          <li>
+            <a href="#" class="pagination__link icon">
+              <i class="fi-rs-angle-double-small-right"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!--===== NEWSLETTER =====-->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img
+              src="./Icon/email.png"
+              alt="newsletter"
+              class="newsletter__icon"
+            />
+            Sign up to Newsletter
+          </h3>
+
+          <p class="newsletter__description">
+            Sign up to our newsletter to get the latest news and updates from
+            us.
+          </p>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter__input"
+            />
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="./Logo/Logo 3.png" alt="Logo" class="footer__logo-img" />
+          </a>
+
+          <h4 class="footer__subtitle">Contact</h4>
+
+          <p class="footer__description">
+            <span>Address:</span> Santos Building, Hemingway Street
+          </p>
+
+          <p class="footer__description"><span>Phone:</span> 0963 865 4110</p>
+
+          <p class="footer__description">
+            <span>Hours:</span> 10:00 - 18:00, Monday - Saturday
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Follow Me</h4>
+
+            <div class="footer__social-links">
+              <a href="https://web.facebook.com/profile.php?id=61551932519852">
+                <img
+                  src="./Icon/facebook.png"
+                  alt="facebook"
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./Icon/instagram.png"
+                  alt="instagram"
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./Icon/twitter.png"
+                  alt="twitter"
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="">
+                <img
+                  src="./Icon/tik-tok.png"
+                  alt="tik-tok"
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Address</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">About Us</a></li>
+            <li><a href="" class="footer__link">Delivery Information</a></li>
+            <li><a href="" class="footer__link">Privacy Policy</a></li>
+            <li><a href="" class="footer__link">Terms & Conditions</a></li>
+            <li><a href="" class="footer__link">Contact Us</a></li>
+            <li><a href="" class="footer__link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">My Account</h3>
+
+          <ul class="footer__links">
+            <li><a href="" class="footer__link">Sign In</a></li>
+            <li><a href="" class="footer__link">View Cart</a></li>
+            <li><a href="" class="footer__link">My Wishlist</a></li>
+            <li><a href="" class="footer__link">Track My Order</a></li>
+            <li><a href="" class="footer__link">Help</a></li>
+            <li><a href="" class="footer__link">Order</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Secured Payment Gateway</h3>
+          <img
+            src="./Photos/Untitled design.png"
+            alt="Payment"
+            class="payment__img"
+          />
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">
+          &copy; 2024 Modulo Customs. All rights reserved.
+        </p>
+
+        <span class="designer">BSCS 2B - Group 7 Project</span>
+      </div>
+    </footer>
+
+    <!--===== SWIPER JS =====-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!---===== Main JS =====-->
+    <script src="main.js"></script>
+  </body>
+</html>
